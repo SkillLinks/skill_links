@@ -44,8 +44,7 @@ Thumbs.db
 Web/wwwroot/lib/*
 
 .vscode/
-
-appsettings.json
+.vscode-test/
 
 Web/wwwroot/css/site.min.css
 Web/wwwroot/js/site.min.js
