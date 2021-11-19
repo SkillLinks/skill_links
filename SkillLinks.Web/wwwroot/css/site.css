@@ -1,3 +1,12 @@
+:root{
+  --backgroundColor:  #ebebeb;
+}
+
+.bg-main {
+  background-color:  #dadada !important;
+  border-bottom: #bebebe 1px solid !important;
+}
+
 html {
   font-size: 14px;
 }
@@ -15,4 +24,15 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color:var(--backgroundColor);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  background-color: #ebebeb;
+  border-top-color: #fafafa;
 }
